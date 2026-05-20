@@ -175,7 +175,7 @@
    ============================================================ */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
-body {
+body { font-size: 17px;
   font-family: var(--font-body);
   color: var(--text);
   background: var(--bg);
@@ -199,17 +199,17 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.02em;
   color: var(--text);
 }
-h1 { font-size: clamp(2.2rem, 6vw, 4.5rem); }
-h2 { font-size: clamp(1.6rem, 4vw, 3rem); margin-bottom: 0.5em; }
-h3 { font-size: clamp(1.2rem, 2.5vw, 1.8rem); }
-h4 { font-size: clamp(1rem, 2vw, 1.3rem); }
+h1 { font-size: clamp(2.5rem, 7vw, 5rem); }
+h2 { font-size: clamp(1.8rem, 4.5vw, 3.3rem); margin-bottom: 0.5em; }
+h3 { font-size: clamp(1.35rem, 3vw, 2rem); }
+h4 { font-size: clamp(1.1rem, 2.2vw, 1.45rem); }
 p { margin-bottom: 1rem; }
 p:last-child { margin-bottom: 0; }
 
 .section-label {
   display: inline-block;
   font-family: var(--font-heading);
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--accent);
@@ -236,7 +236,7 @@ p:last-child { margin-bottom: 0; }
   gap: 0.5rem;
   padding: 0.85rem 2rem;
   font-family: var(--font-heading);
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -286,7 +286,7 @@ p:last-child { margin-bottom: 0; }
 }
 .btn-ghost:hover { background: rgba(45,106,79,0.08); }
 
-.btn-lg { padding: 1rem 2.5rem; font-size: 1.1rem; }
+.btn-lg { padding: 1rem 2.5rem; font-size: 1.2rem; }
 .btn-sm { padding: 0.6rem 1.25rem; font-size: 0.8rem; }
 
 .btn svg { width: 20px; height: 20px; flex-shrink: 0; }
@@ -512,7 +512,7 @@ p:last-child { margin-bottom: 0; }
 }
 .hero h1 .highlight { color: var(--accent-light); }
 .hero p {
-  font-size: clamp(1rem, 1.8vw, 1.15rem);
+  font-size: clamp(1.1rem, 2vw, 1.25rem);
   color: rgba(255,255,255,0.85);
   max-width: 600px;
   margin: 1rem 0 1.5rem;
@@ -587,7 +587,7 @@ p:last-child { margin-bottom: 0; }
 }
 .section-header p {
   color: var(--text-light);
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 .section-dark .section-header p { color: rgba(255,255,255,0.7); }
 
@@ -625,7 +625,7 @@ p:last-child { margin-bottom: 0; }
 .pas-card:nth-child(2) .pas-icon { background: rgba(231,111,81,0.1); color: var(--accent); }
 .pas-card:nth-child(3) .pas-icon { background: rgba(64,145,108,0.1); color: var(--primary-light); }
 .pas-card h3 { font-size: 1.1rem; margin-bottom: 0.6rem; }
-.pas-card p { color: var(--text-light); font-size: 0.95rem; }
+.pas-card p { color: var(--text-light); font-size: 1.05rem; }
 
 /* ============================================================
    SERVICES CARDS
@@ -674,7 +674,7 @@ p:last-child { margin-bottom: 0; }
 .service-card:nth-child(3) .service-icon { background: rgba(64,145,108,0.1); }
 
 .service-card h3 { font-size: 1.3rem; margin-bottom: 0.75rem; }
-.service-card p { color: var(--text-light); font-size: 0.95rem; margin-bottom: 1.25rem; }
+.service-card p { color: var(--text-light); font-size: 1.05rem; margin-bottom: 1.25rem; }
 .service-features { margin: 1rem 0 1.5rem; display: flex; flex-direction: column; gap: 0.5rem; }
 .service-features li {
   display: flex;
@@ -724,7 +724,7 @@ p:last-child { margin-bottom: 0; }
   margin-bottom: 0.3rem;
 }
 .diff-item p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: rgba(255,255,255,0.65);
   line-height: 1.4;
 }
@@ -757,7 +757,7 @@ p:last-child { margin-bottom: 0; }
 }
 .testimonial-text {
   font-style: italic;
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   color: var(--text);
   margin-bottom: 1rem;
   padding-top: 1rem;
@@ -805,7 +805,7 @@ p:last-child { margin-bottom: 0; }
 }
 .cta-banner * { position: relative; z-index: 1; }
 .cta-banner h2 { color: var(--white); margin-bottom: 0.75rem; }
-.cta-banner p { color: rgba(255,255,255,0.9); font-size: 1.1rem; max-width: 600px; margin: 0 auto 1.5rem; }
+.cta-banner p { color: rgba(255,255,255,0.9); font-size: 1.2rem; max-width: 600px; margin: 0 auto 1.5rem; }
 .cta-banner .btn { background: var(--white); color: var(--accent-dark); box-shadow: 0 4px 20px rgba(0,0,0,0.15); }
 .cta-banner .btn:hover { background: var(--bg); }
 
@@ -833,7 +833,7 @@ p:last-child { margin-bottom: 0; }
   border: none;
   cursor: pointer;
   font-family: var(--font-heading);
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   color: var(--text);
@@ -858,14 +858,14 @@ p:last-child { margin-bottom: 0; }
 .faq-answer-inner {
   padding: 0 1.5rem 1.25rem;
   color: var(--text-light);
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   line-height: 1.7;
 }
 
 /* ============================================================
    FOOTER
    ============================================================ */
-.site-footer { background: var(--primary-dark); color: rgba(255,255,255,0.7); padding: clamp(2.5rem, 5vw, 4rem) 0 1.5rem; font-size: 0.9rem; }
+.site-footer { background: var(--primary-dark); color: rgba(255,255,255,0.7); padding: clamp(2.5rem, 5vw, 4rem) 0 1.5rem; font-size: 0.95rem; }
 .footer-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -1049,7 +1049,7 @@ p:last-child { margin-bottom: 0; }
     <div style="background:var(--white);border:2px solid var(--primary);border-radius:var(--radius-lg);padding:2rem;box-shadow:var(--shadow);margin-top:-1.5rem;position:relative;z-index:3;">
       <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.75rem;">
         <span style="font-family:var(--font-heading);font-size:0.75rem;text-transform:uppercase;letter-spacing:0.12em;color:var(--primary);background:rgba(45,106,79,0.1);padding:0.3rem 0.8rem;border-radius:50px;">TL;DR</span>
-        <span style="font-size:0.85rem;color:var(--text-light);">Big A's Bucket Service in Starkville, MS</span>
+        <span style="font-size:0.9rem;color:var(--text-light);">Big A's Bucket Service in Starkville, MS</span>
       </div>
       <p style="font-size:1.05rem;margin-bottom:0;"><strong>Big A's</strong> — tree removal (any size, 60-ft bucket truck + climbers), dirt work &amp; grading (no minimums, fill dirt from $150), and full landscaping across <strong>Oktibbeha County and surrounding areas</strong>. Starkville local <strong>Brian Walker</strong>. Free estimates. 24/7 storm response. Call <a href="tel:+16624180297" style="color:var(--accent);font-weight:700;">(662) 418-0297</a>.</p>
     </div>

@@ -88,7 +88,7 @@
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
-body {
+body { font-size: 17px;
   font-family: var(--font-body);
   color: var(--text);
   background: var(--bg);
@@ -109,17 +109,17 @@ h1, h2, h3, h4 {
   letter-spacing: 0.02em;
   color: var(--text);
 }
-h1 { font-size: clamp(2rem, 5vw, 3.6rem); }
-h2 { font-size: clamp(1.5rem, 3.5vw, 2.6rem); margin-bottom: 0.5em; }
-h3 { font-size: clamp(1.15rem, 2.2vw, 1.6rem); }
-h4 { font-size: clamp(1rem, 1.8vw, 1.2rem); }
+h1 { font-size: clamp(2.3rem, 5.5vw, 4rem); }
+h2 { font-size: clamp(1.7rem, 4vw, 2.9rem); margin-bottom: 0.5em; }
+h3 { font-size: clamp(1.3rem, 2.5vw, 1.8rem); }
+h4 { font-size: clamp(1.1rem, 2vw, 1.35rem); }
 p { margin-bottom: 1rem; }
 p:last-child { margin-bottom: 0; }
 
 .section-label {
   display: inline-block;
   font-family: var(--font-heading);
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--accent);
@@ -142,7 +142,7 @@ p:last-child { margin-bottom: 0; }
   gap: 0.5rem;
   padding: 0.85rem 2rem;
   font-family: var(--font-heading);
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -185,7 +185,7 @@ p:last-child { margin-bottom: 0; }
 }
 .btn-outline-light:hover { background: var(--white); color: var(--primary-dark); }
 
-.btn-lg { padding: 1rem 2.5rem; font-size: 1.1rem; }
+.btn-lg { padding: 1rem 2.5rem; font-size: 1.2rem; }
 
 /* ============================================================
    HEADER / NAV
@@ -540,7 +540,7 @@ p:last-child { margin-bottom: 0; }
 /* ============================================================
    FOOTER
    ============================================================ */
-.site-footer { background: var(--primary-dark); color: rgba(255,255,255,0.7); padding: clamp(2.5rem, 5vw, 4rem) 0 1.5rem; font-size: 0.9rem; }
+.site-footer { background: var(--primary-dark); color: rgba(255,255,255,0.7); padding: clamp(2.5rem, 5vw, 4rem) 0 1.5rem; font-size: 0.95rem; }
 .footer-grid {
   display: grid;
   grid-template-columns: 1fr;
