@@ -222,9 +222,9 @@ p:last-child { margin-bottom: 0; }
    ============================================================ */
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
-  padding: 0 1.25rem;
+  padding: 0 1rem;
 }
 
 /* ============================================================
@@ -460,7 +460,7 @@ p:last-child { margin-bottom: 0; }
    ============================================================ */
 .hero {
   position: relative;
-  min-height: 92vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   background: var(--primary-dark);
@@ -486,8 +486,8 @@ p:last-child { margin-bottom: 0; }
 .hero .container {
   position: relative;
   z-index: 2;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .hero-content { max-width: 780px; }
 .hero-badge {
@@ -542,8 +542,8 @@ p:last-child { margin-bottom: 0; }
 .hero-stats {
   display: flex;
   gap: 2rem;
-  margin-top: 3rem;
-  padding-top: 2rem;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
   border-top: 1px solid rgba(255,255,255,0.1);
 }
 .hero-stat { text-align: center; }
@@ -565,7 +565,7 @@ p:last-child { margin-bottom: 0; }
    SECTIONS — GENERAL
    ============================================================ */
 .section {
-  padding: clamp(3.5rem, 8vw, 6rem) 0;
+  padding: clamp(2.5rem, 5vw, 4rem) 0;
 }
 .section-alt { background: var(--white); }
 .section-dark {
@@ -582,8 +582,8 @@ p:last-child { margin-bottom: 0; }
 
 .section-header {
   text-align: center;
-  max-width: 720px;
-  margin: 0 auto 3rem;
+  max-width: 800px;
+  margin: 0 auto 2rem;
 }
 .section-header p {
   color: var(--text-light);
@@ -865,11 +865,7 @@ p:last-child { margin-bottom: 0; }
 /* ============================================================
    FOOTER
    ============================================================ */
-.site-footer {
-  background: var(--dark);
-  color: rgba(255,255,255,0.8);
-  padding: 4rem 0 0;
-}
+.site-footer { background: var(--primary-dark); color: rgba(255,255,255,0.7); padding: clamp(2.5rem, 5vw, 4rem) 0 1.5rem; font-size: 0.9rem; }
 .footer-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -936,7 +932,7 @@ p:last-child { margin-bottom: 0; }
    RESPONSIVE — TABLET (768px+)
    ============================================================ */
 @media (min-width: 768px) {
-  .container { padding: 0 2rem; }
+  .container { padding: 0 1.5rem; }
   .hamburger { display: none; }
   .nav-desktop { display: flex; }
   .nav-phone { display: flex; }
@@ -947,7 +943,7 @@ p:last-child { margin-bottom: 0; }
 
   .footer-grid { grid-template-columns: 2fr 1fr 1fr 1.5fr; }
 
-  .hero { min-height: 85vh; }
+  .hero { min-height: 75vh; }
   .hero-stat-number { font-size: 2.5rem; }
 }
 
@@ -955,8 +951,8 @@ p:last-child { margin-bottom: 0; }
    RESPONSIVE — DESKTOP (1024px+)
    ============================================================ */
 @media (min-width: 1024px) {
-  .container { padding: 0 2.5rem; }
-  .hero { min-height: 90vh; }
+  .container { padding: 0 2rem; }
+  .hero { min-height: 80vh; }
   .testimonial-grid { grid-template-columns: repeat(3, 1fr); }
 }
 </style>
