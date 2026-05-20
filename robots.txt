@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Allow AI crawlers for indexing
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://big-as-bucket-service.vercel.app/sitemap.xml
